@@ -19,6 +19,8 @@
         <activity android:name=".EditTextActivity"/>
         <activity android:name=".DialogFragemtActivity"
             android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".bottom.BottomActivity" />
+        
     </application>
 
 </manifest>

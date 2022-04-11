@@ -14,6 +14,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.dialogfragment.bottom.BottomActivity;
+
 
 public class MainActivity extends AppCompatActivity implements LoginDialogFragment.LoginInputListener
 {
@@ -105,6 +107,13 @@ public class MainActivity extends AppCompatActivity implements LoginDialogFragme
 		it.setClass(this, DialogFragemtActivity.class);
 		startActivity(it);
 	}
+	
+	public void onBottomDialogFragment(View v) {
+		Intent it = new Intent();
+		it.setClass(this, BottomActivity.class);
+		startActivity(it);
+	}
+	
 	@Override
 	public void onLoginInputComplete(String username, String password)
 	{
