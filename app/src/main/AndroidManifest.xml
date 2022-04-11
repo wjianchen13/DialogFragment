@@ -20,7 +20,7 @@
         <activity android:name=".DialogFragemtActivity"
             android:windowSoftInputMode="stateHidden|adjustResize"/>
         <activity android:name=".bottom.BottomActivity" />
-        
+        <activity android:name=".progress.ProgressActivity" />
     </application>
 
 </manifest>

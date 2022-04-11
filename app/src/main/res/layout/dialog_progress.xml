@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llyt_full"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llyt_dialog"
+        android:layout_width="290dp"
+        android:layout_height="100dp"
+        android:background="#5f00ff00"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="正在测试XXX (1/5)"
+            android:layout_marginTop="5dp"
+            android:textColor="#333333"
+            android:textSize="14sp" />
+
+        <ProgressBar
+            android:id="@+id/pb"
+            android:layout_width="match_parent"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_height="4dp"
+            android:layout_marginTop="26dp"
+            android:layout_marginBottom="25dp"
+            android:max="100"
+            android:progress="20"
+            android:progressDrawable="@drawable/bg_testing" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

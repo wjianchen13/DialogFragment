@@ -15,6 +15,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.dialogfragment.bottom.BottomActivity;
+import com.example.dialogfragment.progress.ProgressActivity;
 
 
 public class MainActivity extends AppCompatActivity implements LoginDialogFragment.LoginInputListener
@@ -111,6 +112,12 @@ public class MainActivity extends AppCompatActivity implements LoginDialogFragme
 	public void onBottomDialogFragment(View v) {
 		Intent it = new Intent();
 		it.setClass(this, BottomActivity.class);
+		startActivity(it);
+	}
+
+	public void onProgressDialogFragment(View v) {
+		Intent it = new Intent();
+		it.setClass(this, ProgressActivity.class);
 		startActivity(it);
 	}
 	
