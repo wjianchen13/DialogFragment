@@ -66,6 +66,13 @@
         android:onClick="onProgressDialogFragment"
         android:text="进度DialogFragment"
         android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onTopDialogFragment"
+        android:text="顶部弹出DialogFragment"
+        android:textAllCaps="false"/>
     
     <FrameLayout 
         android:layout_width="wrap_content"

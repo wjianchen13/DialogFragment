@@ -21,6 +21,7 @@
             android:windowSoftInputMode="stateHidden|adjustResize"/>
         <activity android:name=".bottom.BottomActivity" />
         <activity android:name=".progress.ProgressActivity" />
+        <activity android:name=".top.TopActivity" />
     </application>
 
 </manifest>
