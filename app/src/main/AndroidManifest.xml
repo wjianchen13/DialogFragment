@@ -24,6 +24,8 @@
         <activity android:name=".progress.ProgressActivity" />
         <activity android:name=".top.TopActivity" />
         <activity android:name=".custombottom.CustomBottomActivity" />
+        <activity android:name=".custombottom.CustomBottomActivity2" />
+
     </application>
 
 </manifest>

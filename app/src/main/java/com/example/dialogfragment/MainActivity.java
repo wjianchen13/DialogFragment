@@ -16,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.dialogfragment.bottom.BottomActivity;
 import com.example.dialogfragment.custombottom.CustomBottomActivity;
+import com.example.dialogfragment.custombottom.CustomBottomActivity2;
 import com.example.dialogfragment.progress.ProgressActivity;
 import com.example.dialogfragment.top.TopActivity;
 
@@ -135,6 +136,11 @@ public class MainActivity extends AppCompatActivity implements LoginDialogFragme
 		startActivity(it);
 	}
 
+	public void onBottomDialogFragment2(View v) {
+		Intent it = new Intent();
+		it.setClass(this, CustomBottomActivity2.class);
+		startActivity(it);
+	}
 	
 	@Override
 	public void onLoginInputComplete(String username, String password)
