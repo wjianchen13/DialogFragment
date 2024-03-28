@@ -1,6 +1,5 @@
 package com.example.dialogfragment;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -17,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.dialogfragment.bottom.BottomActivity;
 import com.example.dialogfragment.custombottom.CustomBottomActivity;
 import com.example.dialogfragment.custombottom.CustomBottomActivity2;
+import com.example.dialogfragment.fullscreen.FullScreenActivity;
 import com.example.dialogfragment.progress.ProgressActivity;
 import com.example.dialogfragment.top.TopActivity;
 
@@ -139,6 +139,16 @@ public class MainActivity extends AppCompatActivity implements LoginDialogFragme
 	public void onBottomDialogFragment2(View v) {
 		Intent it = new Intent();
 		it.setClass(this, CustomBottomActivity2.class);
+		startActivity(it);
+	}
+
+	/**
+	 * 全屏DialogFragment
+	 * @param v
+	 */
+	public void onFullDialogFragment(View v) {
+		Intent it = new Intent();
+		it.setClass(this, FullScreenActivity.class);
 		startActivity(it);
 	}
 	

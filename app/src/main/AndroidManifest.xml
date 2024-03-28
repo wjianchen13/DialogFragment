@@ -25,6 +25,7 @@
         <activity android:name=".top.TopActivity" />
         <activity android:name=".custombottom.CustomBottomActivity" />
         <activity android:name=".custombottom.CustomBottomActivity2" />
+        <activity android:name=".fullscreen.FullScreenActivity" />
 
     </application>
 

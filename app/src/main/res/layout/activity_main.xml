@@ -87,6 +87,13 @@
         android:onClick="onBottomDialogFragment2"
         android:text="底部弹出DialogFragment，有输入框"
         android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onFullDialogFragment"
+        android:text="全屏DialogFragment"
+        android:textAllCaps="false"/>
     
     <FrameLayout 
         android:layout_width="wrap_content"
